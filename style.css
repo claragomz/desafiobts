@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 3%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightblue;
+    height: 15vh;
+    text-align: center;
+    text-size-adjust: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 1em;
+}
+ul{
+    margin-left: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.primeira{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 1em;
+    align-items: center;
+    margin: 4%;
+}
+
+.segunda{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 1em;
+    align-items: center;
+    margin: 4%;
+}
+
+.terceira{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 1em;
+    align-items: center;
+    margin: 4%;
+}
+
+h1{
+    align-items: center;
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    align-items: center;
+    color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    align-items: center;
+    color: rgb(32, 86, 104);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fotoGaleria{
+    width: 10vw;
+    height: 9vh;
+}

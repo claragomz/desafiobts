@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 2.4%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: whitesmoke;
+    height: 15vh;
+    text-align: center;
+    text-size-adjust: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 1em;
+}
+ul{
+    margin-left: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+h1{
+    color: lightsteelblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+body{
+    background-color: white;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bby{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 1em;
+    align-items: center;
+    margin: 4%;
+}
+
+.bb{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 1em;
+    align-items: center;
+    margin: 4%;
+}
+
+.beb{
+    width: 20vw;
+    height: 40vh;
+    border-radius: 1em;
+    align-items: center;
+    margin: 4%;
+}
+
+.dii{
+   display: inline-flex
+   align-items: center;
+}
+
+p {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
